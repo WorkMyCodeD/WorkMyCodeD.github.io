@@ -107,7 +107,7 @@ button
 .bg-container
 {
     background-color: #090e11;
-    background-image: url(../../image/bg.png);
+    background-image: url(../../image/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -632,7 +632,7 @@ button
 .backgroud_contact
 {
     background-color: #090e11;
-    background-image: url(../../image/bg-contact.png);
+    background-image: url(../../image/bg-contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
