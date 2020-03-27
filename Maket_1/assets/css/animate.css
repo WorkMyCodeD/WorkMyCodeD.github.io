@@ -1,5 +1,102 @@
+.button-solid:hover
+{
+    color: #000;
+    border-color: #007265;
+    background-color: #007265;
+}
+
+.button-solid:focus
+{
+    color: #000;
+    border-color: #007265;
+    background-color: #007265;
+    -webkit-box-shadow: 0 0 15px #000;
+            box-shadow: 0 0 15px #000;
+}
+
+.arrow-back
+{
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+}
+
+.grid_object:hover > div > button:hover
+{
+    color: #00897b;
+    background-color: #fff;
+}
+
+.grid_object:hover > div > button:focus
+{
+    color: #00897b;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+            box-shadow: 0 0 10px #fff;
+}
+
 .grid_rotate_world:hover > div > img {
 	animation: shake infinite 1s;
+}
+
+.info-container > div > a > h3:hover
+{
+    color: #00897b;
+}
+
+.image-people > img:hover
+{
+    border-radius: 10px;
+}
+
+.card-people > div:hover
+{
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px;
+            box-shadow: 0 0 10px;
+}
+
+.button-line-black:hover
+{
+    color: #fff;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+}
+
+.button-line-black:focus
+{
+    color: #fff;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+}
+
+.basic-grid-block:hover
+{
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+    -webkit-box-shadow: 0 0 20px #000;
+
+            box-shadow: 0 0 20px #000;
+}
+
+.button-line-green:focus
+{
+    color: #fff;
+    background-color: #00897b;
+}
+
+.image-container:hover > div > div
+{
+    visibility: visible;
+
+    -webkit-transition: .5s;
+
+    -o-transition: .5s;
+
+    transition: .5s;
 }
 
 @keyframes shake {
@@ -44,10 +141,6 @@
     }
 }
 
-
-
-/* Team Block */
-
 .facebook-icon:hover {
 	background-color: #3b5998;
 	color: #fff;
@@ -67,8 +160,6 @@
 	background-color: #Ee66aa;
 	color: #fff;
 }
-
-/* Contact Block */
 
 .icon-contact:hover > div {
     box-shadow: 0 0 20px #3949ab;
