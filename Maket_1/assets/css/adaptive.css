@@ -238,4 +238,19 @@ nav
 
         width: 90%;
     }
+
+    .grid_object
+    {
+        width: 80%;
+    }
+
+    .card-people > div {
+        width: 80% !important;   
+    }
+
+    input {
+        display: block;
+        width: calc(100% - 30px) !important;
+        margin-bottom: 10px;
+    }
 }
